@@ -1,0 +1,44 @@
+db.Student.insert(
+	{
+           _id:1,
+	   Name: "Abhi",
+	   RollNo: "19",
+	   Age: "20",
+	   e_mail: "Abhii@gmail.com",
+	   contact_no:"9848022338"
+	})
+db.Student.insert(
+	{
+           _id:2,
+	   Name: "ABC",
+	   RollNo: "11",
+	   Age: "20",
+	   e_mail: "abc@gmail.com",
+	   contact_no:"9848044338"
+	})
+
+db.Student.insert(
+	{
+           _id:3,
+	   Name: "Avinashz",
+	   RollNo: "12",
+	   Age: "21",
+	   e_mail: "avinashz@gmail.com",
+	   contact_no:"9848022559"
+	})
+db.Student.insert(
+	{
+           _id:4,
+	   Name: "Barat",
+	   RollNo: "10",
+	   Age: "20",
+	   e_mail: "barath1122@gmail.com",
+	   contact_no:"8858022559"
+	})
+        
+        
+db.Student.update({_id:4 },{ $set: { "e_mail": "bhavika@gmail.com" }})
+db.Student.update({_id:2},{ $set: {Name: "FEM" }})
+mongoexport --db College --collection Student --type=csv --out C:\Users\Abhi\Desktop\Student.csv --fields Name,RollNo,Age,e_mail,contact_no
+db.Student.drop()
+mongoimport --db College --collection Students --type=csv --file C:\Users\Abhi\Desktop\Student.csv --fields Name,RollNo,Age,e_mail,contact_no
