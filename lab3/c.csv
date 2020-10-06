@@ -1,5 +1,0 @@
-{"_id":{"$oid":"5f7c1690f930f1201c8fbbdd"},"cust_id":1.0,"Acc_bal":1500.0,"Acc_type":"Z"}
-{"_id":{"$oid":"5f7c169ef930f1201c8fbbde"},"cust_id":2.0,"Acc_bal":3000.0,"Acc_type":"A"}
-{"_id":{"$oid":"5f7c16aaf930f1201c8fbbdf"},"cust_id":1.0,"Acc_bal":1200.0,"Acc_type":"A"}
-{"_id":{"$oid":"5f7c16ddf930f1201c8fbbe0"},"cust_id":3.0,"Acc_bal":500.0,"Acc_type":"Z"}
-{"_id":{"$oid":"5f7c1731f930f1201c8fbbe1"},"cust_id":2.0,"Acc_bal":1600.0,"Acc_type":"Z"}
